@@ -2,7 +2,6 @@
 /* eslint-disable react/react-in-jsx-scope */
 import { useEffect, useState } from "react";
 import "./app.css";
-import SearchHeader from "./components/search_header/search_header";
 import VideoList from "./components/video_list/video_list";
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
   }, []);
   return (
     <>
-      <SearchHeader />
       <VideoList videoList={videoList} />
     </>
   );

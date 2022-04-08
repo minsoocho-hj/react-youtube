@@ -20,18 +20,22 @@ const SearchHeader = ({ searchVideo }) => {
   };
 
   return (
-    <header className="header">
-      <img src="../public/images/youtube.png" alt="" />
-      <h1 className="title">Youtube</h1>
+    <header className={styles.header}>
+      <img src="./images/youtube.png" alt="" className={styles.icon} />
+      <h1 className={styles.title}>Youtube</h1>
       <input
         ref={inputRef}
         type="text"
-        className="searchInput"
+        className={styles.searchInput}
         placeholder="Search"
         onKeyPress={onKeyPress}
       />
-      <button className="btn" onClick={onClick}>
-        Search
+      <button className={styles.btn} onClick={onClick}>
+        <img
+          src="./images/searchIcon.png"
+          alt=""
+          className={styles.searchIcon}
+        />
       </button>
     </header>
   );

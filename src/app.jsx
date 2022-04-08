@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/react-in-jsx-scope */
 import { useEffect, useState } from "react";
-import "./app.css";
 import SearchHeader from "./components/search_header/search_header";
 import VideoList from "./components/video_list/video_list";
+import styles from "./app.module.css";
 
 function App() {
   const [videoList, setVideoList] = useState([]);
@@ -40,7 +40,9 @@ function App() {
   return (
     <>
       <SearchHeader searchVideo={searchVideo} />
-      <VideoList videoList={videoList} />
+      <div className={styles.container}>
+        <VideoList videoList={videoList} />
+      </div>
     </>
   );
 }

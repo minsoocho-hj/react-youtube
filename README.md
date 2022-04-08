@@ -1,71 +1,41 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 👉🏼 DEMO : https://youtube-ms.netlify.app
+<hr />
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/71766604/162486005-84a7c3d3-19f4-4ed4-bbe6-ee3f35d230f5.png">
 
-## Available Scripts
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/71766604/162485181-083d721b-0452-4f85-96a5-27d7cc72fdc4.png">
 
-In the project directory, you can run:
 
-### `yarn start`
+# README in progress...🔍
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## README 🔍
+- 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Tech stacks 💪
+- React.js
+- JavaScript
+- postCSS
+- Deploy with netlify.
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 💻 Library
+- moment js https://momentjs.com/
+ > In order to show article's uploaded time
 
-### `yarn build`
+### 📈 Google Youtube API 
+- Youtube player https://developers.google.com/youtube/youtube_player_demo
+- YouTube Data API https://developers.google.com/youtube/v3/getting-started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Extra features
+### Front End
+### Module why?
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Future improvement plan 📝
+- Add rating feaure for each movie bookmarks
+- concise devise setup(all the logged in user can add/edit/delete saved list and movies at this moment)
+- Make fancier alrert prompt
+- speed issue
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# react-youtube
+## License
+This project is licensed under the MIT License.

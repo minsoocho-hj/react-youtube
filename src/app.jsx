@@ -14,7 +14,6 @@ function App() {
     setSelectedVideo(video);
   };
 
-  const display = () => {};
   const searchVideo = (query) => {
     setSelectedVideo(null);
     const requestOptions = {

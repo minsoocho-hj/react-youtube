@@ -12,10 +12,15 @@ const ShowVideo = ({ selectedVideo }) => (
       frameBorder="0"
       allowFullScreen
     ></iframe>
-    <h1>{selectedVideo.snippet.title}</h1>
-
-    <p className={styles.publishDate}>{selectedVideo.snippet.publishedAt}</p>
-    <p className={styles.channelTitle}>{selectedVideo.snippet.channelTitle}</p>
+    <div className={styles.videoInfo}>
+      <h1>{selectedVideo.snippet.title}</h1>
+      <p className={styles.publishDate}>
+        Uploaded date - {selectedVideo.snippet.publishedAt}
+      </p>
+      <p className={styles.channelTitle}>
+        {selectedVideo.snippet.channelTitle}
+      </p>
+    </div>
     <hr />
     <pre className={styles.description}>
       {selectedVideo.snippet.description}

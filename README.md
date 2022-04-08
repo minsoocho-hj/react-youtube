@@ -22,10 +22,10 @@ DEMO  👉🏼  : https://youtube-ms.netlify.app
 - User can search video by keyword
 
 ## 💪 Tech stacks 
-- React.js
-- JavaScript
-- postCSS
-- Deploy with netlify.
+- <strong>React.js</strong>
+- <strong>JavaScript</strong>
+- <strong>postCSS</strong>
+- <strong>Deploy with netlify.</strong>
 
 ## 💻 Library
 - moment js https://momentjs.com/
@@ -56,13 +56,13 @@ DEMO  👉🏼  : https://youtube-ms.netlify.app
      
      
 - youtube.js     
-<img width="1068" alt="image" src="https://user-images.githubusercontent.com/71766604/162510080-d93063e5-8819-419c-85d4-28edc2d9fba6.png">
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/71766604/162510080-d93063e5-8819-419c-85d4-28edc2d9fba6.png">
 
 - index.js : create instance, and delivered props to app component
-<img width="589" alt="image" src="https://user-images.githubusercontent.com/71766604/162510127-ae29faab-b97e-469c-87aa-c5722a4159ea.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/71766604/162510127-ae29faab-b97e-469c-87aa-c5722a4159ea.png">
      
 - get props in app.jsx component.
-<img width="604" alt="image" src="https://user-images.githubusercontent.com/71766604/162510184-9a47afed-15c9-451b-8593-52f152bc3631.png">
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/71766604/162510184-9a47afed-15c9-451b-8593-52f152bc3631.png">
 
      
 ## Future improvement plan 📝

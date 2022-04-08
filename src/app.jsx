@@ -8,6 +8,21 @@ import VideoList from "./components/video_list/video_list";
 function App() {
   const [videoList, setVideoList] = useState([]);
 
+  const searchVideo = (query) => {
+    const requestOptions = {
+      method: "GET",
+      redirect: "follow",
+    };
+
+    fetch(
+      `https://youtube.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${query}r&key=AIzaSyDoifx4fcdLl7xMHxIhje4Z5t0QwAE77Zk`,
+      requestOptions
+    )
+      .then((response) => response.json())
+      .then((result) => setVideoList(result.items))
+      .catch((error) => console.log("error", error));
+  };
+
   useEffect(() => {
     const requestOptions = {
       method: "GET",
@@ -24,7 +39,7 @@ function App() {
   }, []);
   return (
     <>
-      <SearchHeader />
+      <SearchHeader searchVideo={searchVideo} />
       <VideoList videoList={videoList} />
     </>
   );

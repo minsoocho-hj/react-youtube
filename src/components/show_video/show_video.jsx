@@ -12,6 +12,7 @@ const ShowVideo = ({ selectedVideo }) => (
       src={`https://www.youtube.com/embed/${selectedVideo.id}`}
       frameBorder="0"
       allowFullScreen
+      title="video"
     ></iframe>
     <div className={styles.videoInfo}>
       <h1>{selectedVideo.snippet.title}</h1>

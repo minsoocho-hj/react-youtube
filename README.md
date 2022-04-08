@@ -5,11 +5,11 @@ DEMO  👉🏼  : https://youtube-ms.netlify.app
 
 <table align="center">
   <tr>
-    <td> <img width="600" alt="image" src="https://user-images.githubusercontent.com/71766604/162486005-84a7c3d3-19f4-4ed4-bbe6-ee3f35d230f5.png"></td>
+    <td> <img width="1000" alt="image" src="https://user-images.githubusercontent.com/71766604/162486005-84a7c3d3-19f4-4ed4-bbe6-ee3f35d230f5.png"></td>
 
   </tr>
   <tr>
-    <td><img width=600" alt="image" src="https://user-images.githubusercontent.com/71766604/162485181-083d721b-0452-4f85-96a5-27d7cc72fdc4.png">
+    <td><img width="1000" alt="image" src="https://user-images.githubusercontent.com/71766604/162515608-97082bbb-e4da-4c71-b0d7-93454d8a5e26.png">
 </td>
   
   </tr>

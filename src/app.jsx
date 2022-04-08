@@ -16,6 +16,7 @@ function App() {
 
   const display = () => {};
   const searchVideo = (query) => {
+    setSelectedVideo(null);
     const requestOptions = {
       method: "GET",
       redirect: "follow",

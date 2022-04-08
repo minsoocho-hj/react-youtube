@@ -1,6 +1,18 @@
+.container {
+  padding: 0.2em;
+  width: 50%;
+}
+.container.gird {
+  width: 50%;
+}
+.container.list {
+  width: 100%;
+}
+
 .video {
   display: flex;
-  width: 50%;
+  width: 100%;
+  height: 200px;
   align-items: center;
   border: 1px solid lightgray;
   box-shadow: 3px 3px 5px 0 rgba(191, 191, 191, 0.53);

@@ -27,7 +27,10 @@ function App() {
       requestOptions
     )
       .then((response) => response.json())
-      .then((result) => setVideoList(result.items))
+      .then((result) =>
+        result.items.map((item) => ({ ...item, id: item.id.videoId }))
+      )
+      .then((video) => setVideoList(video))
       .catch((error) => console.log("error", error));
   };
 

@@ -21,8 +21,10 @@ const SearchHeader = ({ searchVideo }) => {
 
   return (
     <header className={styles.header}>
-      <img src="./images/youtube.png" alt="" className={styles.icon} />
-      <h1 className={styles.title}>Youtube</h1>
+      <a className={styles.logo} href="index.html">
+        <img src="./images/youtube.png" alt="" className={styles.icon} />
+        <h1 className={styles.title}>Youtube</h1>
+      </a>
       <input
         ref={inputRef}
         type="text"

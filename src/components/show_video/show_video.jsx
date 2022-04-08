@@ -9,15 +9,18 @@ const ShowVideo = ({ selectedVideo }) => (
       width="100%"
       height="405"
       src={`https://www.youtube.com/embed/${selectedVideo.id}`}
-      frameborder="0"
-      allowfullscreen
+      frameBorder="0"
+      allowFullScreen
     ></iframe>
     <h1>{selectedVideo.snippet.title}</h1>
-    <p className={styles.channelTitle}>{selectedVideo.snippet.channelTitle}</p>
+
     <p className={styles.publishDate}>{selectedVideo.snippet.publishedAt}</p>
+    <p className={styles.channelTitle}>{selectedVideo.snippet.channelTitle}</p>
+    <hr />
     <pre className={styles.description}>
       {selectedVideo.snippet.description}
     </pre>
+    <hr />
   </section>
 );
 

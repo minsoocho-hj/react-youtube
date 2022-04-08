@@ -41,3 +41,9 @@
 .channel {
   font-size: 0.8em;
 }
+
+@media only screen and (max-width: 48rem) {
+  .container {
+    width: 100%;
+  }
+}

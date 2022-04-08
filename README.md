@@ -27,15 +27,16 @@ DEMO  👉🏼  : https://youtube-ms.netlify.app
 - postCSS
 - Deploy with netlify.
 
-### 💻 Library
+## 💻 Library
 - moment js https://momentjs.com/
  > In order to show ordered uploaded time 
 
-### 📈 Google Youtube API 
+## 📈 Google Youtube API 
 - Youtube player https://developers.google.com/youtube/youtube_player_demo
 - YouTube Data API https://developers.google.com/youtube/v3/getting-started
 
 ## Extra features
+      
 ### 📲 Responsive design
      
 <table align="center">
@@ -44,11 +45,12 @@ DEMO  👉🏼  : https://youtube-ms.netlify.app
          <td><img width="552" alt="image" src="https://user-images.githubusercontent.com/71766604/162509853-7c464b41-8ac5-47bf-9fbe-1291b5b717be.png"></td>
   </tr>
 
-</table>
+</table>     
+
+      
+### 📦 Set Youtube network module aside as class and WHY ?
      
-### 📦 Set Youtube network module aside as class
-## why?
-     - In order to keep MVC principal, remove network logic in React component.
+     - In order to keep MVC principal, removed network logic in React component.
      - Dependency injection
        (To avoid unnecessary networking while taking a unit test, later on, inject mock class when its need test)
      

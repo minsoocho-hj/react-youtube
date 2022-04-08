@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   height: 5rem;
   background-color: black;
@@ -14,6 +14,7 @@
 .logo {
   text-decoration: none;
   display: flex;
+  align-items: center;
 }
 
 .icon {

@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./show_video.module.css";
+import moment from "moment";
 
 const ShowVideo = ({ selectedVideo }) => (
   <section className={styles.section}>
@@ -14,8 +15,9 @@ const ShowVideo = ({ selectedVideo }) => (
     ></iframe>
     <div className={styles.videoInfo}>
       <h1>{selectedVideo.snippet.title}</h1>
-      <p className={styles.publishDate}>
-        Uploaded date - {selectedVideo.snippet.publishedAt}
+      <p>
+        <span className={styles.publishDate}>Uploaded date </span>
+        <span>{moment(selectedVideo.snippet.publishedAt).format("LL")}</span>
       </p>
       <p className={styles.channelTitle}>
         {selectedVideo.snippet.channelTitle}
